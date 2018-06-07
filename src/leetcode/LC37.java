@@ -2,7 +2,7 @@ package leetcode;
 
 import java.util.Arrays;
 
-public class L37 {
+public class LC37 {
 	public static void solveSudoku(char[][] board) {
         boolean[][] rows = new boolean[9][9];
         boolean[][] cols = new boolean[9][9];
