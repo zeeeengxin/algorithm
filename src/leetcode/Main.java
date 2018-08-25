@@ -5,10 +5,12 @@ import other.*;
 
 public class Main {
 	public static void main(String[] args) {
-		int[] arr = {2,1, 3};
-		ModifyToAnagram test = new ModifyToAnagram();
-		System.out.println(test.modifyToAnagram("abcd", "bacc"));
-		
+		char[] arr = {'3','1','2','1','3','3','4','5','3','6','7'};
+		TreeNode root = TreeUtils.createBinaryTree(arr);
+		TreeUtils.printTreeLevelOrder(root);
+
+        System.out.println(NumAppearMostLevelInTree.numberAppearMost(root));
+
 	}
 	
 }
