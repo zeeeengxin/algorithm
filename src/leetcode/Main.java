@@ -8,9 +8,8 @@ public class Main {
 		//char[] arr = {'3','1','2','1', '1', '4'};
 		//TreeNode root = TreeUtils.createBinaryTree(arr);
 //		TreeUtils.printTreeLevelOrder(root);
-        String a = "+";
-        System.out.println(LC151.reverseWords(" abc  ef a"));
 
+        System.out.println(LC187.findRepeatedDnaSequences("AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"));
     }
 
 }
