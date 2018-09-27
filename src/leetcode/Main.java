@@ -8,9 +8,11 @@ public class Main {
 		//char[] arr = {'3','1','2','1', '1', '4'};
 		//TreeNode root = TreeUtils.createBinaryTree(arr);
         //TreeUtils.printTreeLevelOrder(root);
-        //int[] arr = {1, 2, 3, 1, -4, -3, -2, -2, 2};
+        int[] arr = {1,1,2,3,5,6};
+        //for (int i = 0; i < 10; i++)
 
-        System.out.println();
+    AltPermutation.permute(6);
+
     }
 
 }
