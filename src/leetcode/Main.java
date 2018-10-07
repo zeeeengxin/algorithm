@@ -14,9 +14,11 @@ public class Main {
         int[] arr2 = {0,1,3,6,7};
 
         //for (int i = 0; i < 10; i++)
-        String[] a = {"bob", "alice", "bob", "c", "ca","bob","bob", "c","alice"};
+        String[] a = {"aba","baa","bab","aaab","aaa","aaaa","aaba"};
 
-
+        LC212 test = new LC212();
+        char[][] b = new char[][] {{'a','b'},{'a','a'}};
+        test.findWords(b, a);
     }
 
 }
