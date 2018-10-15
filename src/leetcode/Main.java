@@ -16,9 +16,9 @@ public class Main {
         //for (int i = 0; i < 10; i++)
         String[] a = {"aba","baa","bab","aaab","aaa","aaaa","aaba"};
 
-        LC212 test = new LC212();
-        char[][] b = new char[][] {{'a','b'},{'a','a'}};
-        test.findWords(b, a);
+        LC246 test = new LC246();
+
+        test.isStrobogrammatic("5");
     }
 
 }
