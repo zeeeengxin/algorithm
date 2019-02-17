@@ -14,11 +14,12 @@ public class Main {
         int[] arr2 = {0,1,3,6,7};
 
         //for (int i = 0; i < 10; i++)
-        String[] a = {"aba","baa","bab","aaab","aaa","aaaa","aaba"};
+        String[] a = {"practice","makes","perfect","coding","makes"};
 
-        LC246 test = new LC246();
+        LC244 test = new LC244(a);
 
-        test.isStrobogrammatic("5");
+        int res = test.shortest("coding", "practice");
+        System.out.print(res);
     }
 
 }
